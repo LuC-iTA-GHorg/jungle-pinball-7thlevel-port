@@ -49,6 +49,9 @@ If you cloned without `--recursive`: `git submodule update --init`.
 
 Start `build\pinball_launcher.exe` (settings, then "Start"), or `build\pinball.exe`. Options,
 keys and the `pinball.ini` settings are described in the engine's README.
+In full screen on a widescreen monitor the picture keeps the original 4:3 with black bars;
+choosing "Stretch to fill" under "Aspect ratio" in the launcher (`Aspect=stretch` in
+`pinball.ini`) fills the screen instead.
 
 ## License
 
